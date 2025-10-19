@@ -1,0 +1,26 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .course-list, .class-options {
+        grid-template-columns: 1fr;
+    }
+}
